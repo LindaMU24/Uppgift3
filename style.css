@@ -22,7 +22,6 @@ main {
     display: flex;
     flex-grow: 1;
     background-color:#F3DECC;
-    border: 1px solid black;
     margin: 0;
     padding: 0;
     height: auto;
@@ -32,7 +31,6 @@ footer {
     background-color:#4B2849;
     color: #F9EEEA;
     text-align: end;
-    border:1px solid black;
     width: 100%;
     height: 5vh;
     padding-top: 20px;
@@ -46,7 +44,6 @@ ul {
 li {
     margin-bottom: 10px; 
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
 }
 
 h2 {
@@ -59,14 +56,12 @@ p {
 
 .kompetenser {
     flex: 1 1 25%;
-    border: 1px solid black;
     padding: 20px;
     background-color: #93628F;
     color: #F9EEEA;
 }
 .presentation {
     flex: 1 1 50%;
-    border: 1px solid black;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20px;
